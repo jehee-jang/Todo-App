@@ -1,3 +1,22 @@
+.center {
+  min-height: 100vh;        
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;                
+  align-items: center;  
+}
+
+.stack header {
+  text-align: center;      
+  margin: 0;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +58,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.button{
+  background-color: blanchedalmond;
 }
